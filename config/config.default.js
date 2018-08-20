@@ -9,5 +9,12 @@ module.exports = appInfo => {
   // add your config here
   config.middleware = [];
 
+  config.bus_request_path = {
+    bj_bus: {
+      bus_line: 'http://www.bjbus.com/home/index.php',
+      rtbus: 'http://www.bjbus.com/home/ajax_rtbus_data.php',
+    },
+  };
+
   return config;
 };

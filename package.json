@@ -4,8 +4,13 @@
   "description": "just study everything",
   "private": true,
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "egg": "^2.2.1",
-    "egg-scripts": "^2.5.0"
+    "egg-router-plus": "^1.2.1",
+    "egg-scripts": "^2.5.0",
+    "lodash": "^4.17.10",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
   },
   "devDependencies": {
     "autod": "^3.0.1",
